@@ -323,8 +323,7 @@
   function shareSection(god, result) {
     const section = el('section', 'share-section');
     section.append(el('div', 'eyebrow share-eyebrow', 'Leve seu chalé com você'),
-      el('h2', 'share-title', 'Compartilhe seu resultado'),
-      el('p', 'share-intro', 'Seu cartão foi criado com a arte e as cores do seu chalé. Compartilhe com os amigos e convide-os a fazer o teste.'));
+      el('h2', 'share-title', 'Compartilhe seu resultado'));
     const preview = el('img', 'share-preview');
     preview.id = 'share-preview';
     preview.alt = `Cartão para compartilhar o resultado ${result.god}, Chalé ${result.cabin}`;
